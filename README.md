@@ -50,6 +50,8 @@ Enter the list of zones (`<zones>`) to be updated here. If several zones are to 
 The following functions are conceivable for later versions, but were not implemented due to current requirements and the time available. If you are interested in a further development, please write an issue or make a pull request with the appropriate enhancement:
 
 - Verbose mode
+- Reduction of the image
+- Renouncement of the Python:3 image
 - ...
 
 ## Credits
