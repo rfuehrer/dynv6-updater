@@ -21,11 +21,17 @@ This image is for use in a private network behind a router. Make sure that the s
 
 ## Installation
 
+A prepared image can be obtained from my Docker Hub: [https://hub.docker.com/r/rfuehrer/dynv6-updater](https://hub.docker.com/r/rfuehrer/dynv6-updater)
+
+### Build
+
 The image can be created with the following command:
 
 ```bash
 docker build --pull -t dynv6/dynv6-updater .
 ```
+
+### Run
 
 After the image has been created, the container can be started with the following command. For the required environment variables, see boitte under `Configuration`.
 
@@ -58,10 +64,16 @@ The following functions are conceivable for later versions, but were not impleme
 
 Appreciation to  
 
-[@pulsar256](https://gist.github.com/pulsar256)  and
-[@nephilim75](https://gist.github.com/nephilim75)
+- [@corny](https://gist.github.com/corny)   and  
+- [@pulsar256](https://gist.github.com/pulsar256)   and  
+- [@nephilim75](https://gist.github.com/nephilim75)  
 
-whose adaptations and inspirations are included in the image as [script](https://gist.github.com/pulsar256/42313fcb2d3ae805805f).
+whose adaptations and inspirations are included in the image and script. 
+
+In reference to gists:
+
+[https://gist.github.com/corny/7a07f5ac901844bd20c9](https://gist.github.com/corny/7a07f5ac901844bd20c9)
+[https://gist.github.com/pulsar256/42313fcb2d3ae805805f](https://gist.github.com/pulsar256/42313fcb2d3ae805805f)
 
 ## License
 
