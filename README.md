@@ -15,20 +15,20 @@ docker build --pull -t dynv6/dynv6-updater .
 After the image has been created, the container can be started with the following command. For the required environment variables, see boitte under `Configuration`.
 
 ```
-docker run -e DYNV6_TOKEN="<token>" -e DYNV6_ZONES="<zone-list>" -d dynv6/dyn6-updater
+docker run -e DYNV6_TOKEN="<token>" -e DYNV6_ZONES="<zones>" -d dynv6/dyn6-updater
 ```
 
 ## Configuration
 
 To use this image, the following environment variables must be set:
 
-```DYNV6_TOKEN```
+```DYNV6_TOKEN=<token>```
 
-Enter the token for using the API here. You can find the token under `Account` -> `Keys` -> `HTTP Tokens` -> `Token`.
+Enter the token `<token>` for using the API here. You can find the token under `Account` -> `Keys` -> `HTTP Tokens` -> `Token`.
 
-```DYNV6_ZONES```
+```DYNV6_ZONES=<zones>```
 
-Enter the list of zones to be updated here. If several zones are to be updated, the list must be separated by commas. At least one fully qualified zone must be specified (Example: `test.dynv6.net`).
+Enter the list of zones (`<zones>`) to be updated here. If several zones are to be updated, the list must be separated by commas. At least one fully qualified zone must be specified (Example: `myzone.dynv6.net` or `myzone1.dynv6.net,myzone2.dynv6.net`).
 
 ## License
 
