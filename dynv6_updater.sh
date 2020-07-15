@@ -1,5 +1,5 @@
 #!/bin/bash
-myarray=(`echo $DYNV6_SERVERS | tr ',' ' '`)
+myarray=(`echo $DYNV6_ZONES | tr ',' ' '`)
 
 #echo "My array: ${myarray[@]}"
 #echo "Number of elements in the array: ${#myarray[@]}"
