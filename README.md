@@ -30,6 +30,15 @@ Enter the token `<token>` for using the API here. You can find the token under `
 
 Enter the list of zones (`<zones>`) to be updated here. If several zones are to be updated, the list must be separated by commas. At least one fully qualified zone must be specified (Example: `myzone.dynv6.net` or `myzone1.dynv6.net,myzone2.dynv6.net`).
 
+## Credits
+
+Appreciation to  
+
+[@pulsar256](https://gist.github.com/pulsar256)  and
+[@nephilim75](https://gist.github.com/nephilim75)
+
+whose adaptations and inspirations are included in the image as [script](https://gist.github.com/pulsar256/42313fcb2d3ae805805f).
+
 ## License
 
 Licensed under MIT. See [LICENSE](LICENSE).
