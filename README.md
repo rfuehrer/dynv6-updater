@@ -45,7 +45,7 @@ To use this image, the following environment variables must be set:
 
 ```DYNV6_TOKEN=<token>```
 
-Enter the token `<token>` for using the API here. You can find the token under `Account` -> `Keys` -> `HTTP Tokens` -> `Token`.
+Enter the token `<token>` for using the API here. You can find the token under `Account` -> `Keys` -> `HTTP Tokens` -> `Token` -> Button `Details`.
 
 ```DYNV6_ZONES=<zones>```
 
